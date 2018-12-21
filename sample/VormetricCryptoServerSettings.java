@@ -75,7 +75,7 @@ public class VormetricCryptoServerSettings {
 
 	String vcstokenserver = "192.168.159.141";
 	String vcsuserid = "vtsroot";
-	String vcspassword = "Vormetric123!";
+	String vcspassword = "yourpwd";
 	String data = null;
 	String[] dataarray = null;
 	String vcstokengroup = "TextTokenGroup";
