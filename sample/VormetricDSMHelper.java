@@ -24,7 +24,7 @@ public class VormetricDSMHelper {
 
 	public static void main(String[] argv) throws Exception {
 
-		ArrayList<String> testdname = getDomainObjectAttributeList2("192.168.159.130", "superadmin", "Admin123!", "",
+		ArrayList<String> testdname = getDomainObjectAttributeList2("192.168.159.130", "superadmin", "yourpwd", "",
 				"domains", "description");
 		System.out.println("length " + testdname);
 		
@@ -35,14 +35,14 @@ public class VormetricDSMHelper {
 			
 		}
 		
-/*		String testid[] = getDomainObjectAttributeList("192.168.159.130", "superadmin", "Admin123!", "",
+/*		String testid[] = getDomainObjectAttributeList("192.168.159.130", "superadmin", "yourpwd", "",
 				"domains", "id");
 		System.out.println("length " + testid.length);
 		for (int i = 0; i < testid.length; i++) {
 			System.out.println(testid[i]);
 		}
 		
-		String test[] = getDomainObjectAttributeList("192.168.159.130", "superadmin", "Admin123!", "1000/hosts",
+		String test[] = getDomainObjectAttributeList("192.168.159.130", "superadmin", "yourpwd", "1000/hosts",
 				"domains", "description");
 		System.out.println("length " + test.length);
 		for (int i = 0; i < test.length; i++) {
@@ -50,7 +50,7 @@ public class VormetricDSMHelper {
 		}
 		//keys/asymmetric/
 		
-		String test2[] = getDomainObjectAttributeList("192.168.159.130", "superadmin", "Admin123!", "1000/keys/asymmetric/",
+		String test2[] = getDomainObjectAttributeList("192.168.159.130", "superadmin", "yourpwd", "1000/keys/asymmetric/",
 				"domains", "description");
 		System.out.println("length " + test2.length);
 		for (int i = 0; i < test2.length; i++) {
@@ -58,7 +58,7 @@ public class VormetricDSMHelper {
 		}*/
 		
 	//	System.out.println("test results " + test);
-		//test = getKeyAttribute("192.168.159.130", "superadmin", "Admin123!", "1000/keys/asymmetric/286", "domains",
+		//test = getKeyAttribute("192.168.159.130", "superadmin", "yourpwd", "1000/keys/asymmetric/286", "domains",
 			//	"publicKey");
 	//	System.out.println("test results " + test);
 	}
