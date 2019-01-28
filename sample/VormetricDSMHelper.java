@@ -128,7 +128,7 @@ public class VormetricDSMHelper {
 		} else if (action == "system") {
 			https_url = "https://" + dsm + "/dsm/v1/system/" + endpt;
 		} else if (action == "domains") {
-			https_url = "https://" + dsm + "/dsm/v1/domains/" + endpt;
+			https_url = "https://" + dsm + "/dsm/v1/domains/" + endpt + "?limit=100&sort=name";
 		} else if (action == "admin") {
 			https_url = "https://" + dsm + "/dsm/v1/admin/" + endpt;
 		} else {
