@@ -1,4 +1,4 @@
-package com.vormetric.rest.sample;
+package com.vormetric.rest.helperclasses;
 
 import java.util.Map;
 import org.apache.log4j.Logger;
@@ -46,16 +46,6 @@ public class VormetricCryptoServerSettings {
 	    		 vcsalg = env.get(envName);
 	    		  if (vcsdebug.equalsIgnoreCase("1"))	 System.out.println("vcsalg=" + vcsalg);
 	    	 }
-	    	 else if (envName.equalsIgnoreCase("vcstokengroup"))
-	    	 {
-	    		 vcstokengroup  = env.get(envName);
-	    		  if (vcsdebug.equalsIgnoreCase("1"))	 System.out.println("vcstokengroup =" + vcstokengroup );
-	    	 }
-	    	 else if (envName.equalsIgnoreCase("vcstokentemplate"))
-	    	 {
-	    		 vcstokentemplate = env.get(envName);
-	    		  if (vcsdebug.equalsIgnoreCase("1"))	 System.out.println("vcstokentemplate=" + vcstokentemplate);
-	    	 }
 	    	 else if (envName.equalsIgnoreCase("vcsdebug"))
 	    	 {
 	    		 vcsdebug = env.get(envName);
@@ -75,11 +65,11 @@ public class VormetricCryptoServerSettings {
 
 	String vcstokenserver = "192.168.159.141";
 	String vcsuserid = "vtsroot";
-	String vcspassword = "yourvcspwd";
+	String vcspassword = "Vormetric123!";
 	String data = null;
 	String[] dataarray = null;
-	String vcstokengroup = "TextTokenGroup";
-	String vcstokentemplate = "Text";
+	String vcstokengroup = null;
+	String vcstokentemplate = null;
 	String vcsaction = "encrypt";
 	
 	 String vcsalg = "A128CTR";
