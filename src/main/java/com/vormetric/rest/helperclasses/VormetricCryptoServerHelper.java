@@ -33,15 +33,7 @@ public class VormetricCryptoServerHelper {
 
 	static Logger log = Logger.getLogger(VormetricCryptoServerHelper.class.getName());
 	
-	/*
-	 * public static void main(String[] args) throws Exception {
-	 * disableCertValidation();
-	 * 
-	 * String con = getSecurityToken("192.168.159.141", "vtsroot",
-	 * "Vormetric123!"); System.out.println("security token " + con);
-	 * 
-	 * }
-	 */
+
 	// Return open HTTP connection for provided URL
 	public static HttpsURLConnection getUrlConnection(String tokenserver, String action) throws Exception {
 
