@@ -68,8 +68,8 @@ public class VormetricCryptoServerSettings {
 	String vcspassword = "Vormetric123!";
 	String data = null;
 	String[] dataarray = null;
-	String vcstokengroup = null;
-	String vcstokentemplate = null;
+	String vcstokengroup = "Demo";
+	String vcstokentemplate = "tokentemplate";
 	String vcsaction = "encrypt";
 	
 	 String vcsalg = "A128CTR";
